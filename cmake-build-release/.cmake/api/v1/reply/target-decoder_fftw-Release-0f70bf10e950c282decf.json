@@ -1,0 +1,171 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "tasks/jpeg-decoder/fftw/libdecoder_fftw.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"target_link_libraries",
+			"link_decoder_deps",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"tasks/jpeg-decoder/fftw/sources.cmake",
+			"tasks/jpeg-decoder/fftw/CMakeLists.txt",
+			"tasks/jpeg-decoder/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 93,
+				"parent" : 4
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 23,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 86,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 100,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wall -Wextra -Wpedantic -g -O3 -DNDEBUG -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-std=gnu++20"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/home/boris/cpp-advanced-hse/util"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/boris/cpp-advanced-hse/tasks/jpeg-decoder/utils"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/boris/cpp-advanced-hse/tasks/jpeg-decoder/include"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/boris/cpp-advanced-hse/cmake-build-release/glog/glog-src/src"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/boris/cpp-advanced-hse/cmake-build-release/glog/glog-build"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "glog::@bb2f01dd6ec990609d83"
+		}
+	],
+	"id" : "decoder_fftw::@e2bd9c8bf87c13978f9e",
+	"name" : "decoder_fftw",
+	"nameOnDisk" : "libdecoder_fftw.a",
+	"paths" : 
+	{
+		"build" : "tasks/jpeg-decoder/fftw",
+		"source" : "tasks/jpeg-decoder/fftw"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "tasks/jpeg-decoder/fftw/fft.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

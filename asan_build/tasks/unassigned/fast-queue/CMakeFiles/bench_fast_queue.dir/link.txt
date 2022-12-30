@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g -g -fsanitize=thread -fno-sanitize-recover=all CMakeFiles/bench_fast_queue.dir/run.cpp.o -o ../../../bench_fast_queue  ../../../libbenchmark.a -lpthread -ldl 

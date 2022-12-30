@@ -1,0 +1,840 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/CMakeFiles/3.24.2/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/CMakeFiles/3.24.2/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "cmake/BuildFlags.cmake"
+		},
+		{
+			"path" : "cmake/TestSolution.cmake"
+		},
+		{
+			"path" : "cmake/SeminarUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/FetchContent.cmake"
+		},
+		{
+			"path" : "cmake/FindGlog.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/FetchContent/CMakeLists.cmake.in"
+		},
+		{
+			"path" : "cmake/FindCatch.cmake"
+		},
+		{
+			"path" : "cmake/FindBenchmark.cmake"
+		},
+		{
+			"path" : "cmake/FindGTest.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/glog/glog-src/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/Internal/CheckFlagCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CheckCXXSourceRuns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/Internal/CheckSourceRuns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CheckCXXSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CheckSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CheckStructHasMember.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CheckTypeSize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CPack.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CPackComponent.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CTestUseLaunchers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CTestTargets.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/DartConfiguration.tcl.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/glog/glog-src/cmake/DetermineGflagsNamespace.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/GenerateExportHeader.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CheckCCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/glog/glog-src/cmake/GetCacheVariables.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/glog/glog-src/cmake/FindUnwind.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/glog/glog-src/src/config.h.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/glog/glog-src/src/glog/logging.h.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/glog/glog-src/src/glog/raw_logging.h.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/glog/glog-src/src/glog/stl_logging.h.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/glog/glog-src/src/glog/vlog_is_on.h.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/glog/glog-src/libglog.pc.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/exportheader.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/glog/glog-src/glog-config.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/glog/glog-src/glog-modules.cmake.in"
+		},
+		{
+			"path" : "allocations_checker/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/unassigned/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/unassigned/list/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/intro/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/intro/multiplication/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/intro/gcd/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/memory/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/memory/deque/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/memory/dedup/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/memory/lru-cache/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/memory/intrusive-list/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/memory/string-view/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/move/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/move/compressed-pair/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/move/cow-vector/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/move/harakiri/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/move/rule-of-5/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/move/reallol/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/move/string-operations/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/types/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/types/dungeon/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/types/fold/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/types/functors/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/types/itertools/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/errors/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/errors/defer/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/errors/safe-transform/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/errors/tryhard/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/errors/grep/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/patterns/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/patterns/pimpl/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/patterns/small-test-framework/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/patterns/editor/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/patterns/any/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/patterns/scala-vector/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/meta/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/meta/compile-eval/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/meta/constexpr-map/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/meta/function-ref/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/baby-threads/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/baby-threads/is-prime/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/baby-threads/reduce/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/baby-threads/subset-sum/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/baby-threads/hash-table/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/condvars/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/condvars/timerqueue/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/condvars/semaphore/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/condvars/rw-lock/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/condvars/buffered-channel/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/condvars/unbuffered-channel/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/lock-free/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/lock-free/futex/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/lock-free/mpsc-stack/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/lock-free/fast-queue/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/lock-free/rw-spinlock/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/lock-free/hazard-ptr/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/lock-free/sync-map/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/smart-ptrs/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/scheme/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/scheme/tokenizer/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/scheme/tokenizer/sources.cmake"
+		},
+		{
+			"path" : "tasks/scheme/parser/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/scheme/parser/sources.cmake"
+		},
+		{
+			"path" : "tasks/scheme/basic/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/scheme/basic/sources.cmake"
+		},
+		{
+			"path" : "tasks/scheme/advanced/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/scheme/advanced/sources.cmake"
+		},
+		{
+			"path" : "tasks/scheme/tidy/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/scheme/tidy/sources.cmake"
+		},
+		{
+			"path" : "tasks/jpeg-decoder/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/FindPNG.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/FindJPEG.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindFFTW.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/219/bin/cmake/linux/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "tasks/jpeg-decoder/huffman/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/jpeg-decoder/huffman/sources.cmake"
+		},
+		{
+			"path" : "tasks/jpeg-decoder/fftw/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/jpeg-decoder/fftw/sources.cmake"
+		},
+		{
+			"path" : "tasks/jpeg-decoder/baseline/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/jpeg-decoder/baseline/sources.cmake"
+		},
+		{
+			"path" : "tasks/jpeg-decoder/faster/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/jpeg-decoder/faster/sources.cmake"
+		},
+		{
+			"path" : "tasks/jpeg-decoder/progressive/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/jpeg-decoder/progressive/sources.cmake"
+		},
+		{
+			"path" : "tasks/bonus/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/bonus/bad-hash/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/bonus/bad-rand/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/bonus/solve-or-die/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/bonus/matrix-2.0/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/bonus/executors/CMakeLists.txt"
+		},
+		{
+			"path" : "tasks/bonus/clang-fun/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/llvm-11/cmake/LLVMConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/llvm-11/cmake/LLVMConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/llvm-11/lib/cmake/llvm/LLVMExports.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/llvm-11/lib/cmake/llvm/LLVMExports-relwithdebinfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/llvm-11/lib/cmake/llvm/LLVM-Config.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/boris/cpp-advanced-hse/cmake-build-release",
+		"source" : "/home/boris/cpp-advanced-hse"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

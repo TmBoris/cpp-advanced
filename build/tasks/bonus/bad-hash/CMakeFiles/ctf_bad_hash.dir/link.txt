@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g -O2 CMakeFiles/ctf_bad_hash.dir/main.cpp.o -o ../../../ctf_bad_hash 

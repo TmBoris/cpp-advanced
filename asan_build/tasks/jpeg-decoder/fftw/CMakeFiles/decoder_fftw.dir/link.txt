@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdecoder_fftw.a CMakeFiles/decoder_fftw.dir/fft.cpp.o
+/usr/bin/ranlib libdecoder_fftw.a

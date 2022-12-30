@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g CMakeFiles/bench_subset_sum.dir/run.cpp.o CMakeFiles/bench_subset_sum.dir/find_subsets.cpp.o -o ../../../bench_subset_sum  ../../../libbenchmark.a -lpthread -ldl 

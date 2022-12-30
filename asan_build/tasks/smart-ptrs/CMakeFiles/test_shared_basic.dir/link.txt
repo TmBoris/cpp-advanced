@@ -1,0 +1,1 @@
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g -g -fsanitize=address,undefined -fno-sanitize-recover=all CMakeFiles/test_shared_basic.dir/shared-basic/test.cpp.o -o ../../test_shared_basic  ../../libcontrib_catch_main.a ../../allocations_checker/liballocations_checker.a 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g CMakeFiles/scheme_basic_repl.dir/repl/main.cpp.o -o ../../../scheme_basic_repl  libscheme_basic.a 

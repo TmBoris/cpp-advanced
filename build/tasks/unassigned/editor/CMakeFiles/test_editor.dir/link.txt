@@ -1,0 +1,1 @@
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g CMakeFiles/test_editor.dir/test.cpp.o -o ../../../test_editor  ../../../libcontrib_catch_main.a 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g -g -fsanitize=address,undefined -fno-sanitize-recover=all CMakeFiles/bench_sync_map.dir/sync_map_bench.cpp.o CMakeFiles/bench_sync_map.dir/hazard_ptr.cpp.o -o ../../../bench_sync_map  ../../../libbenchmark.a -lpthread -ldl 

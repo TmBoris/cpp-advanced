@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tasks/jpeg-decoder/baseline",
+		"source" : "tasks/jpeg-decoder/baseline"
+	}
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g -rdynamic CMakeFiles/cleanup_with_prefix_unittest.dir/src/cleanup_with_prefix_unittest.cc.o -o ../../cleanup_with_prefix_unittest  libglogtest.a 

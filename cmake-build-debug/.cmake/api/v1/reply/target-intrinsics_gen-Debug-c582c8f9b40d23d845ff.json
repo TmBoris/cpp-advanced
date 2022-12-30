@@ -1,0 +1,47 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"find_package"
+		],
+		"files" : 
+		[
+			"/usr/lib/llvm-11/cmake/LLVMConfig.cmake",
+			"tasks/bonus/clang-fun/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 2
+			}
+		]
+	},
+	"id" : "intrinsics_gen::@adf922e2400a90a70b1a",
+	"name" : "intrinsics_gen",
+	"paths" : 
+	{
+		"build" : "tasks/bonus/clang-fun",
+		"source" : "tasks/bonus/clang-fun"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

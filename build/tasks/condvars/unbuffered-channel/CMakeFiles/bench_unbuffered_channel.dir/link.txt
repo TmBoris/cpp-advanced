@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g CMakeFiles/bench_unbuffered_channel.dir/bench.cpp.o -o ../../../bench_unbuffered_channel  ../../../libbenchmark.a -lpthread -ldl 

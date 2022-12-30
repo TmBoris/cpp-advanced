@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g CMakeFiles/bench_mpsc_stack.dir/mpsc_stack_bench.cpp.o -o ../../../bench_mpsc_stack  ../../../libbenchmark.a -lpthread -ldl 

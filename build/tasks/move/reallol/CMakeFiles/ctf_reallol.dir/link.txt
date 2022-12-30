@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g -fsanitize=address CMakeFiles/ctf_reallol.dir/main.cpp.o -o ../../../ctf_reallol 

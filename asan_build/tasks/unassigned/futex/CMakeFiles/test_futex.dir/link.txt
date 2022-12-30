@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g -g -fsanitize=thread -fno-sanitize-recover=all CMakeFiles/test_futex.dir/__/__/__/contrib/gmock_main.cc.o CMakeFiles/test_futex.dir/test.cpp.o -o ../../../test_futex  ../../../libgmock.a -lpthread 

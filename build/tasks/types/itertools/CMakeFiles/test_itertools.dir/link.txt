@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g CMakeFiles/test_itertools.dir/test.cpp.o -o ../../../test_itertools  ../../../libcontrib_catch_main.a 

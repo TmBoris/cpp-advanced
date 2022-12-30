@@ -1,0 +1,27 @@
+/snap/clion/219/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=/snap/clion/219/bin/ninja/linux/ninja -G Ninja -S /home/boris/cpp-advanced-hse -B /home/boris/cpp-advanced-hse/cmake-build-release
+C++ version: 20
+-- Could NOT find GTest (missing: GTest_DIR)
+-- Could NOT find Unwind (missing: Unwind_INCLUDE_DIR Unwind_LIBRARY Unwind_PLATFORM_LIBRARY) 
+-- Path to PNG includes: /usr/include;/usr/include
+-- Path to PNG library: /usr/lib/x86_64-linux-gnu/libpng.so
+-- Path to JPEG includes: /usr/include
+-- Path to JPEG library: /usr/lib/x86_64-linux-gnu/libjpeg.so
+-- Path to FFTW includes: /usr/include
+-- Path to FFTW library: /usr/lib/x86_64-linux-gnu/libfftw3.so
+CMake Warning at tasks/jpeg-decoder/CMakeLists.txt:114 (message):
+  Clang is required for fuzzing tests (Apple Clang does not fit too).  This
+  is just warning, you can use your current compiler for all tasks except
+  fuzzing.  Go to tasks/jpeg-decoder/README.md for guide about clang
+  installation.
+
+
+-- Found LLVM 11.1.0
+-- Using LLVMConfig.cmake in: /usr/lib/llvm-11/cmake
+-- LLVM include dir is /usr/lib/llvm-11/include
+CMake Warning at tasks/bonus/clang-fun/CMakeLists.txt:12 (message):
+  You need at least LLVM 14 to correctly build bonus/clang-fun
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/boris/cpp-advanced-hse/cmake-build-release

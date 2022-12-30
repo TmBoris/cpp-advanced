@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g CMakeFiles/scheme_tidy_repl.dir/repl/main.cpp.o -o ../../../scheme_tidy_repl  libscheme_tidy.a 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g -g -fsanitize=address,undefined -fno-sanitize-recover=all CMakeFiles/test_scheme_parser.dir/tokenizer/test.cpp.o CMakeFiles/test_scheme_parser.dir/parser/test.cpp.o CMakeFiles/test_scheme_parser.dir/parser/fuzzing.cpp.o -o ../../test_scheme_parser  ../../libcontrib_catch_main.a parser/libscheme_parser.a 

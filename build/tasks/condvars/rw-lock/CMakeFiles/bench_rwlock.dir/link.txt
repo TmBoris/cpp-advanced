@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g CMakeFiles/bench_rwlock.dir/run.cpp.o -o ../../../bench_rwlock  ../../../libbenchmark.a -lpthread -ldl 

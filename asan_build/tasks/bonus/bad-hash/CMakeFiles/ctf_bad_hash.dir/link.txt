@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g -g -fsanitize=address,undefined -fno-sanitize-recover=all -O2 CMakeFiles/ctf_bad_hash.dir/main.cpp.o -o ../../../ctf_bad_hash 

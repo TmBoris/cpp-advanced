@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g CMakeFiles/bench_futex.dir/bench.cpp.o -o ../../../bench_futex  ../../../libbenchmark.a -lpthread -ldl 

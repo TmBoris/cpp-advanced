@@ -1,0 +1,1 @@
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g CMakeFiles/bench_reduce.dir/run.cpp.o -o ../../../bench_reduce  ../../../libbenchmark.a -lpthread -ldl 

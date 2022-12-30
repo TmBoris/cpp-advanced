@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g -g -fsanitize=address,undefined -fno-sanitize-recover=all CMakeFiles/test_templates.dir/test_templates.cpp.o -o ../../../test_templates  ../../../libcontrib_catch_main.a 

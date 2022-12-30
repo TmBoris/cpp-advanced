@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g -g -fsanitize=address,undefined -fno-sanitize-recover=all CMakeFiles/test_matrix_2.dir/test.cpp.o -o ../../../test_matrix_2  ../../../libcontrib_catch_main.a 

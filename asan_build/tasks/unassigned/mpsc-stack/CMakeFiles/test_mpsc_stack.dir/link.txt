@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g -g -fsanitize=thread -fno-sanitize-recover=all CMakeFiles/test_mpsc_stack.dir/__/__/__/contrib/gmock_main.cc.o CMakeFiles/test_mpsc_stack.dir/mpsc_stack_test.cpp.o -o ../../../test_mpsc_stack  ../../../libgmock.a -lpthread 

@@ -1,0 +1,116 @@
+#pragma once
+
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+#include <cstdint>
+#include <string>
+
+=======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+#include <cstddef>
+#include "vector"
+#include "string"
+
+class Obj {
+public:
+    std::vector<std::string> ptr;
+    int size;
+
+    Obj() {
+        size = 1;
+    }
+
+    ~Obj() {
+    }
+};
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+
+class COWVector {
+public:
+    COWVector() {
+        Obj* obj = new Obj;
+        store_ = obj;
+    }
+    ~COWVector() {
+        if (store_->size > 1) {
+            store_->size--;
+        } else {
+            delete store_;
+            store_ = nullptr;
+        }
+    }
+
+    COWVector(const COWVector& other) {
+        store_ = other.store_;
+        store_->size++;
+    }
+    COWVector& operator=(const COWVector& other) {
+        if (store_->size > 1) {
+            store_->size--;
+        } else {
+            delete store_;
+            store_ = nullptr;
+        }
+        store_ = other.store_;
+        store_->size++;
+        return *this;
+    }
+
+    size_t Size() const {
+        return store_->ptr.size();
+    }
+
+    void Resize(size_t size) {
+        store_->ptr.resize(size);
+    }
+
+    const std::string& Get(size_t at) {
+        return store_->ptr.at(at);
+    }
+    const std::string& Back() {
+        return store_->ptr.back();
+    }
+
+    void PushBack(const std::string& value) {
+        if (store_->size == 1) {
+            store_->ptr.push_back(value);
+        } else {
+            Obj* obj = new Obj;
+            store_->size--;
+            auto x = store_->ptr;
+            store_ = obj;
+            store_->ptr = x;
+            store_->ptr.push_back(value);
+        }
+    }
+
+    void Set(size_t at, const std::string& value) {
+        if (store_->size == 1 || store_->ptr.at(at) == value) {
+            store_->ptr.at(at) = value;
+        } else {
+            Obj* obj = new Obj;
+            store_->size--;
+            auto x = store_->ptr;
+            store_ = obj;
+            store_->ptr = x;
+            store_->ptr.at(at) = value;
+        }
+    }
+
+private:
+<<<<<<< Updated upstream
+};
+=======
+    Obj* store_;
+};
+>>>>>>> Stashed changes

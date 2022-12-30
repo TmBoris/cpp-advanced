@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g CMakeFiles/ctf_rule_of_5.dir/main.cpp.o -o ../../../ctf_rule_of_5 

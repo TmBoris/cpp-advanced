@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g -g -fsanitize=address,undefined -fno-sanitize-recover=all CMakeFiles/test_intrusive.dir/intrusive/test.cpp.o -o ../../test_intrusive  ../../libcontrib_catch_main.a ../../allocations_checker/liballocations_checker.a 

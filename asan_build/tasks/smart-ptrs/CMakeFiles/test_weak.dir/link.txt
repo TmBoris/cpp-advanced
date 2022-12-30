@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g -g -fsanitize=address,undefined -fno-sanitize-recover=all CMakeFiles/test_weak.dir/weak/test.cpp.o CMakeFiles/test_weak.dir/weak/test_shared.cpp.o -o ../../test_weak  ../../libcontrib_catch_main.a ../../allocations_checker/liballocations_checker.a 

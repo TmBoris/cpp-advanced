@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g CMakeFiles/test_shared_from_this.dir/shared-from-this/test.cpp.o CMakeFiles/test_shared_from_this.dir/shared-from-this/test_shared.cpp.o CMakeFiles/test_shared_from_this.dir/shared-from-this/test_weak.cpp.o -o ../../test_shared_from_this  ../../libcontrib_catch_main.a ../../allocations_checker/liballocations_checker.a 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libscheme_tidy.a CMakeFiles/scheme_tidy.dir/tokenizer.cpp.o CMakeFiles/scheme_tidy.dir/parser.cpp.o CMakeFiles/scheme_tidy.dir/scheme.cpp.o
+/usr/bin/ranlib libscheme_tidy.a

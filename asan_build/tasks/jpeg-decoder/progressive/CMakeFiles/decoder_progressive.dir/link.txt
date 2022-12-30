@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdecoder_progressive.a CMakeFiles/decoder_progressive.dir/huffman.cpp.o CMakeFiles/decoder_progressive.dir/fft.cpp.o CMakeFiles/decoder_progressive.dir/decoder.cpp.o
+/usr/bin/ranlib libdecoder_progressive.a

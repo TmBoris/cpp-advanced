@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g CMakeFiles/ctf_gcd.dir/main.cpp.o -o ../../../ctf_gcd 

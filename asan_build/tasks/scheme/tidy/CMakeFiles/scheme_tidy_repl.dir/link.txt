@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g -g -fsanitize=address,undefined -fno-sanitize-recover=all CMakeFiles/scheme_tidy_repl.dir/repl/main.cpp.o -o ../../../scheme_tidy_repl  libscheme_tidy.a 

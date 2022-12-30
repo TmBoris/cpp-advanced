@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tasks/lock-free/hazard-ptr",
+		"source" : "tasks/lock-free/hazard-ptr"
+	}
+}

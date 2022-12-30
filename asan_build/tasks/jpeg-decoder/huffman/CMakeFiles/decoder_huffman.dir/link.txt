@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdecoder_huffman.a CMakeFiles/decoder_huffman.dir/huffman.cpp.o
+/usr/bin/ranlib libdecoder_huffman.a

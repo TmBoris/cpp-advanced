@@ -1,0 +1,2 @@
+/usr/bin/ar qc liballocations_checker.a CMakeFiles/allocations_checker.dir/allocations_checker.cpp.o
+/usr/bin/ranlib liballocations_checker.a

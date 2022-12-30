@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g CMakeFiles/bench_isprime.dir/run.cpp.o CMakeFiles/bench_isprime.dir/is_prime.cpp.o -o ../../../bench_isprime  ../../../libbenchmark.a -lpthread -ldl 

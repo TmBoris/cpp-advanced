@@ -1,0 +1,1450 @@
+The system is: Linux - 5.15.0-47-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_66af4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_66af4.dir/build.make CMakeFiles/cmTC_66af4.dir/build
+gmake[1]: Entering directory '/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66af4.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_66af4.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.2.0-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2_ --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_66af4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_66af4.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_66af4.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccRUa4Cf.s
+GNU C17 (Ubuntu 11.2.0-19ubuntu1) version 11.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.2.0-19ubuntu1) version 11.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: ead6677a8de2192bf1e5ee7b28d13856
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_66af4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_66af4.dir/'
+ as -v --64 -o CMakeFiles/cmTC_66af4.dir/CMakeCCompilerABI.c.o /tmp/ccRUa4Cf.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_66af4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_66af4.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_66af4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66af4.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_66af4.dir/CMakeCCompilerABI.c.o -o cmTC_66af4 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.2.0-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2_ --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66af4' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_66af4.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccApuxao.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_66af4 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_66af4.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66af4' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_66af4.'
+gmake[1]: Leaving directory '/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_66af4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_66af4.dir/build.make CMakeFiles/cmTC_66af4.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_66af4.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_66af4.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.2.0-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2_ --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_66af4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_66af4.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_66af4.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccRUa4Cf.s]
+  ignore line: [GNU C17 (Ubuntu 11.2.0-19ubuntu1) version 11.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.2.0-19ubuntu1) version 11.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: ead6677a8de2192bf1e5ee7b28d13856]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_66af4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_66af4.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_66af4.dir/CMakeCCompilerABI.c.o /tmp/ccRUa4Cf.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_66af4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_66af4.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_66af4]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66af4.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_66af4.dir/CMakeCCompilerABI.c.o -o cmTC_66af4 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.2.0-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2_ --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66af4' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_66af4.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccApuxao.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_66af4 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_66af4.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccApuxao.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_66af4] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_66af4.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a4285/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a4285.dir/build.make CMakeFiles/cmTC_a4285.dir/build
+gmake[1]: Entering directory '/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a4285.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_a4285.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.2.0-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2_ --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a4285.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a4285.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a4285.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccUgFBmt.s
+GNU C++17 (Ubuntu 11.2.0-19ubuntu1) version 11.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/11
+ /usr/include/x86_64-linux-gnu/c++/11
+ /usr/include/c++/11/backward
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 11.2.0-19ubuntu1) version 11.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 619370d92bf6efc3023abfa7394da0c1
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a4285.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a4285.dir/'
+ as -v --64 -o CMakeFiles/cmTC_a4285.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccUgFBmt.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a4285.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a4285.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_a4285
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4285.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_a4285.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a4285 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.2.0-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2_ --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a4285' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a4285.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cceNblO1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a4285 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_a4285.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a4285' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a4285.'
+gmake[1]: Leaving directory '/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/11]
+    add: [/usr/include/x86_64-linux-gnu/c++/11]
+    add: [/usr/include/c++/11/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+  collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a4285/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a4285.dir/build.make CMakeFiles/cmTC_a4285.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a4285.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_a4285.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.2.0-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2_ --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a4285.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a4285.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a4285.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccUgFBmt.s]
+  ignore line: [GNU C++17 (Ubuntu 11.2.0-19ubuntu1) version 11.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/11]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 11.2.0-19ubuntu1) version 11.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 619370d92bf6efc3023abfa7394da0c1]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a4285.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a4285.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_a4285.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccUgFBmt.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a4285.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a4285.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_a4285]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4285.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_a4285.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a4285 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.2.0-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2_ --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a4285' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a4285.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cceNblO1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a4285 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_a4285.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cceNblO1.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a4285] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_a4285.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_82fbe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_82fbe.dir/build.make CMakeFiles/cmTC_82fbe.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_82fbe.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_82fbe.dir/CheckIncludeFile.c.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_82fbe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82fbe.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_82fbe.dir/CheckIncludeFile.c.o -o cmTC_82fbe 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_11e54/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_11e54.dir/build.make CMakeFiles/cmTC_11e54.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_11e54.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -o CMakeFiles/cmTC_11e54.dir/src.c.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_11e54
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11e54.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_11e54.dir/src.c.o -o cmTC_11e54 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file unwind.h exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b3e42/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b3e42.dir/build.make CMakeFiles/cmTC_b3e42.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_b3e42.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_b3e42.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_b3e42
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3e42.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_b3e42.dir/CheckIncludeFile.cxx.o -o cmTC_b3e42 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cf714/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cf714.dir/build.make CMakeFiles/cmTC_cf714.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_cf714.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_cf714.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_cf714
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf714.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_cf714.dir/CheckIncludeFile.cxx.o -o cmTC_cf714 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2beea/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2beea.dir/build.make CMakeFiles/cmTC_2beea.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_2beea.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_2beea.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_2beea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2beea.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_2beea.dir/CheckIncludeFile.cxx.o -o cmTC_2beea 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file glob.h exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_128ba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_128ba.dir/build.make CMakeFiles/cmTC_128ba.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_128ba.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_128ba.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_128ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_128ba.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_128ba.dir/CheckIncludeFile.cxx.o -o cmTC_128ba 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_83d06/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_83d06.dir/build.make CMakeFiles/cmTC_83d06.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_83d06.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_83d06.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_83d06
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83d06.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_83d06.dir/CheckIncludeFile.cxx.o -o cmTC_83d06 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4f403/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4f403.dir/build.make CMakeFiles/cmTC_4f403.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_4f403.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_4f403.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_4f403
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f403.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_4f403.dir/CheckIncludeFile.cxx.o -o cmTC_4f403 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file pwd.h exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7b1be/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7b1be.dir/build.make CMakeFiles/cmTC_7b1be.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_7b1be.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_7b1be.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_7b1be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b1be.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_7b1be.dir/CheckIncludeFile.cxx.o -o cmTC_7b1be 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_22366/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_22366.dir/build.make CMakeFiles/cmTC_22366.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_22366.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_22366.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_22366
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22366.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_22366.dir/CheckIncludeFile.cxx.o -o cmTC_22366 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_da838/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_da838.dir/build.make CMakeFiles/cmTC_da838.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_da838.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_da838.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_da838
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da838.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_da838.dir/CheckIncludeFile.cxx.o -o cmTC_da838 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c78ff/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c78ff.dir/build.make CMakeFiles/cmTC_c78ff.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_c78ff.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_c78ff.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_c78ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c78ff.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_c78ff.dir/CheckIncludeFile.cxx.o -o cmTC_c78ff 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file sys/syscall.h exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c9362/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c9362.dir/build.make CMakeFiles/cmTC_c9362.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_c9362.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_c9362.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_c9362
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9362.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_c9362.dir/CheckIncludeFile.cxx.o -o cmTC_c9362 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d6521/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d6521.dir/build.make CMakeFiles/cmTC_d6521.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_d6521.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_d6521.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_d6521
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6521.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_d6521.dir/CheckIncludeFile.cxx.o -o cmTC_d6521 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e5113/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e5113.dir/build.make CMakeFiles/cmTC_e5113.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_e5113.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_e5113.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_e5113
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5113.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_e5113.dir/CheckIncludeFile.cxx.o -o cmTC_e5113 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file sys/utsname.h exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4fc4d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4fc4d.dir/build.make CMakeFiles/cmTC_4fc4d.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_4fc4d.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_4fc4d.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_4fc4d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fc4d.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_4fc4d.dir/CheckIncludeFile.cxx.o -o cmTC_4fc4d 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file sys/wait.h exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_016dc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_016dc.dir/build.make CMakeFiles/cmTC_016dc.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_016dc.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_016dc.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_016dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_016dc.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_016dc.dir/CheckIncludeFile.cxx.o -o cmTC_016dc 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file syscall.h exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0bef9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0bef9.dir/build.make CMakeFiles/cmTC_0bef9.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_0bef9.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_0bef9.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_0bef9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bef9.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_0bef9.dir/CheckIncludeFile.cxx.o -o cmTC_0bef9 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a45d8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a45d8.dir/build.make CMakeFiles/cmTC_a45d8.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_a45d8.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_a45d8.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_a45d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a45d8.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_a45d8.dir/CheckIncludeFile.cxx.o -o cmTC_a45d8 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file ucontext.h exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_89506/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_89506.dir/build.make CMakeFiles/cmTC_89506.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_89506.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_89506.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_89506
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89506.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_89506.dir/CheckIncludeFile.cxx.o -o cmTC_89506 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c5bdf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c5bdf.dir/build.make CMakeFiles/cmTC_c5bdf.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_c5bdf.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_c5bdf.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_c5bdf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5bdf.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_c5bdf.dir/CheckIncludeFile.cxx.o -o cmTC_c5bdf 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file ext/hash_map exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a75a3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a75a3.dir/build.make CMakeFiles/cmTC_a75a3.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_a75a3.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_a75a3.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/11/ext/hash_map:60,
+                 from /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/11/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+   32 | #warning \
+      |  ^~~~~~~
+Linking CXX executable cmTC_a75a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a75a3.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_a75a3.dir/CheckIncludeFile.cxx.o -o cmTC_a75a3 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file ext/hash_set exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6cc63/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6cc63.dir/build.make CMakeFiles/cmTC_6cc63.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_6cc63.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_6cc63.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/11/ext/hash_set:60,
+                 from /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/11/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+   32 | #warning \
+      |  ^~~~~~~
+Linking CXX executable cmTC_6cc63
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cc63.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_6cc63.dir/CheckIncludeFile.cxx.o -o cmTC_6cc63 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file ext/slist exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_82b2c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_82b2c.dir/build.make CMakeFiles/cmTC_82b2c.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_82b2c.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_82b2c.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_82b2c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82b2c.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_82b2c.dir/CheckIncludeFile.cxx.o -o cmTC_82b2c 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file tr1/unordered_map exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d3ddf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d3ddf.dir/build.make CMakeFiles/cmTC_d3ddf.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_d3ddf.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_d3ddf.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_d3ddf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3ddf.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_d3ddf.dir/CheckIncludeFile.cxx.o -o cmTC_d3ddf 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file tr1/unordered_set exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_67ea1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_67ea1.dir/build.make CMakeFiles/cmTC_67ea1.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_67ea1.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_67ea1.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_67ea1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67ea1.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_67ea1.dir/CheckIncludeFile.cxx.o -o cmTC_67ea1 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file unordered_map exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2dbd4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2dbd4.dir/build.make CMakeFiles/cmTC_2dbd4.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_2dbd4.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_2dbd4.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_2dbd4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dbd4.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_2dbd4.dir/CheckIncludeFile.cxx.o -o cmTC_2dbd4 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file unordered_set exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2ea1c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2ea1c.dir/build.make CMakeFiles/cmTC_2ea1c.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_2ea1c.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_2ea1c.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_2ea1c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ea1c.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_2ea1c.dir/CheckIncludeFile.cxx.o -o cmTC_2ea1c 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cfc11/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cfc11.dir/build.make CMakeFiles/cmTC_cfc11.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_cfc11.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_cfc11.dir/CheckIncludeFile.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_cfc11
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfc11.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_cfc11.dir/CheckIncludeFile.cxx.o -o cmTC_cfc11 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining size of u_int16_t passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e7b83/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e7b83.dir/build.make CMakeFiles/cmTC_e7b83.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_e7b83.dir/HAVE_U_INT16_T.cpp.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_e7b83.dir/HAVE_U_INT16_T.cpp.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CheckTypeSize/HAVE_U_INT16_T.cpp
+Linking CXX executable cmTC_e7b83
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7b83.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_e7b83.dir/HAVE_U_INT16_T.cpp.o -o cmTC_e7b83 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8224b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8224b.dir/build.make CMakeFiles/cmTC_8224b.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_8224b.dir/HAVE_UINT16_T.cpp.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_8224b.dir/HAVE_UINT16_T.cpp.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CheckTypeSize/HAVE_UINT16_T.cpp
+Linking CXX executable cmTC_8224b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8224b.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_8224b.dir/HAVE_UINT16_T.cpp.o -o cmTC_8224b 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the function dladdr exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d7a5e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d7a5e.dir/build.make CMakeFiles/cmTC_d7a5e.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_d7a5e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dladdr -fPIE -o CMakeFiles/cmTC_d7a5e.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d7a5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7a5e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dladdr -rdynamic CMakeFiles/cmTC_d7a5e.dir/CheckFunctionExists.c.o -o cmTC_d7a5e 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2276b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2276b.dir/build.make CMakeFiles/cmTC_2276b.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_2276b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fcntl -fPIE -o CMakeFiles/cmTC_2276b.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2276b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2276b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fcntl -rdynamic CMakeFiles/cmTC_2276b.dir/CheckFunctionExists.c.o -o cmTC_2276b 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the function pread exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a5aef/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a5aef.dir/build.make CMakeFiles/cmTC_a5aef.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_a5aef.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pread -fPIE -o CMakeFiles/cmTC_a5aef.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a5aef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5aef.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pread -rdynamic CMakeFiles/cmTC_a5aef.dir/CheckFunctionExists.c.o -o cmTC_a5aef 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the function pwrite exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f7429/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f7429.dir/build.make CMakeFiles/cmTC_f7429.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_f7429.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pwrite -fPIE -o CMakeFiles/cmTC_f7429.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f7429
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7429.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pwrite -rdynamic CMakeFiles/cmTC_f7429.dir/CheckFunctionExists.c.o -o cmTC_f7429 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a08ba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a08ba.dir/build.make CMakeFiles/cmTC_a08ba.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_a08ba.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaction -fPIE -o CMakeFiles/cmTC_a08ba.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a08ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a08ba.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaction -rdynamic CMakeFiles/cmTC_a08ba.dir/CheckFunctionExists.c.o -o cmTC_a08ba 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Determining if the function sigaltstack exists passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b30cc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b30cc.dir/build.make CMakeFiles/cmTC_b30cc.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_b30cc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaltstack -fPIE -o CMakeFiles/cmTC_b30cc.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b30cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b30cc.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaltstack -rdynamic CMakeFiles/cmTC_b30cc.dir/CheckFunctionExists.c.o -o cmTC_b30cc 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+
+Performing C++ SOURCE FILE Test HAVE_NO_DEPRECATED succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_19ec8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_19ec8.dir/build.make CMakeFiles/cmTC_19ec8.dir/build
+gmake[1]: Entering directory '/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_19ec8.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_NO_DEPRECATED  -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE   -Wdeprecated -o CMakeFiles/cmTC_19ec8.dir/src.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_19ec8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19ec8.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_19ec8.dir/src.cxx.o -o cmTC_19ec8 
+gmake[1]: Leaving directory '/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the snprintf exist passed with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_09179/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_09179.dir/build.make CMakeFiles/cmTC_09179.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_09179.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_09179.dir/CheckSymbolExists.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_09179
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09179.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_09179.dir/CheckSymbolExists.cxx.o -o cmTC_09179 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+File /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cstdio>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE___ATTRIBUTE__ succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6a2a6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6a2a6.dir/build.make CMakeFiles/cmTC_6a2a6.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_6a2a6.dir/src.cxx.o
+/usr/bin/c++ -DHAVE___ATTRIBUTE__  -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_6a2a6.dir/src.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx
+/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx:3:13: warning: ‘void foo()’ declared ‘static’ but never defined [-Wunused-function]
+    3 | static void foo(void) __attribute__ ((unused));
+      |             ^~~
+Linking CXX executable cmTC_6a2a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a2a6.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_6a2a6.dir/src.cxx.o -o cmTC_6a2a6 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+
+#include <cstdlib>
+static void foo(void) __attribute__ ((unused));
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_DEFAULT succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7036e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7036e.dir/build.make CMakeFiles/cmTC_7036e.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_7036e.dir/src.cxx.o
+/usr/bin/c++ -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT  -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_7036e.dir/src.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx
+/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx:3:61: warning: ‘visibility’ attribute ignored [-Wattributes]
+    3 | static void foo(void) __attribute__ ((visibility("default")));
+      |                                                             ^
+/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx:3:13: warning: ‘void foo()’ declared ‘static’ but never defined [-Wunused-function]
+    3 | static void foo(void) __attribute__ ((visibility("default")));
+      |             ^~~
+Linking CXX executable cmTC_7036e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7036e.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_7036e.dir/src.cxx.o -o cmTC_7036e 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+
+#include <cstdlib>
+static void foo(void) __attribute__ ((visibility("default")));
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f033a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f033a.dir/build.make CMakeFiles/cmTC_f033a.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_f033a.dir/src.cxx.o
+/usr/bin/c++ -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN  -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_f033a.dir/src.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx
+/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx:3:60: warning: ‘visibility’ attribute ignored [-Wattributes]
+    3 | static void foo(void) __attribute__ ((visibility("hidden")));
+      |                                                            ^
+/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx:3:13: warning: ‘void foo()’ declared ‘static’ but never defined [-Wunused-function]
+    3 | static void foo(void) __attribute__ ((visibility("hidden")));
+      |             ^~~
+Linking CXX executable cmTC_f033a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f033a.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_f033a.dir/src.cxx.o -o cmTC_f033a 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+
+#include <cstdlib>
+static void foo(void) __attribute__ ((visibility("hidden")));
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE___BUILTIN_EXPECT succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_064fa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_064fa.dir/build.make CMakeFiles/cmTC_064fa.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_064fa.dir/src.cxx.o
+/usr/bin/c++ -DHAVE___BUILTIN_EXPECT  -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_064fa.dir/src.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_064fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_064fa.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_064fa.dir/src.cxx.o -o cmTC_064fa 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+
+int main(void) { if (__builtin_expect(0, 0)) return 1; return 0; }
+
+Performing C++ SOURCE FILE Test HAVE___SYNC_VAL_COMPARE_AND_SWAP succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e99fb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e99fb.dir/build.make CMakeFiles/cmTC_e99fb.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_e99fb.dir/src.cxx.o
+/usr/bin/c++ -DHAVE___SYNC_VAL_COMPARE_AND_SWAP  -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_e99fb.dir/src.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e99fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e99fb.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_e99fb.dir/src.cxx.o -o cmTC_e99fb 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+
+int main(void)
+{
+  int a; if (__sync_val_compare_and_swap(&a, 0, 1)) return 1; return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_RWLOCK succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8838e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8838e.dir/build.make CMakeFiles/cmTC_8838e.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_8838e.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_RWLOCK  -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_8838e.dir/src.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8838e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8838e.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_8838e.dir/src.cxx.o -o cmTC_8838e 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+
+#define _XOPEN_SOURCE 500
+#include <pthread.h>
+int main(void)
+{
+  pthread_rwlock_t l;
+  pthread_rwlock_init(&l, NULL);
+  pthread_rwlock_rdlock(&l);
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test STL_STD_NAMESPACE succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f6ec4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f6ec4.dir/build.make CMakeFiles/cmTC_f6ec4.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_f6ec4.dir/src.cxx.o
+/usr/bin/c++ -DSTL_STD_NAMESPACE  -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_f6ec4.dir/src.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f6ec4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6ec4.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_f6ec4.dir/src.cxx.o -o cmTC_f6ec4 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+
+#include <vector>
+std::vector<int> t; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_USING_OPERATOR succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e3b00/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e3b00.dir/build.make CMakeFiles/cmTC_e3b00.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_e3b00.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_USING_OPERATOR  -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_e3b00.dir/src.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e3b00
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3b00.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_e3b00.dir/src.cxx.o -o cmTC_e3b00 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+
+#include <iostream>
+std::ostream& operator<<(std::ostream&, struct s);
+using ::operator<<;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_NAMESPACES succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_14dac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_14dac.dir/build.make CMakeFiles/cmTC_14dac.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_14dac.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_NAMESPACES  -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_14dac.dir/src.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_14dac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14dac.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_14dac.dir/src.cxx.o -o cmTC_14dac 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+
+namespace Outer { namespace Inner { int i = 0; }}
+using namespace Outer::Inner;;
+int main() { return i; }
+
+Performing C++ SOURCE FILE Test HAVE_GCC_TLS succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_af24f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_af24f.dir/build.make CMakeFiles/cmTC_af24f.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_af24f.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_GCC_TLS  -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_af24f.dir/src.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_af24f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af24f.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_af24f.dir/src.cxx.o -o cmTC_af24f 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+
+__thread int tls;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_TLS succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0af35/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0af35.dir/build.make CMakeFiles/cmTC_0af35.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_0af35.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX11_TLS  -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_0af35.dir/src.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0af35
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0af35.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_0af35.dir/src.cxx.o -o cmTC_0af35 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+
+thread_local int tls;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_ALIGNED_STORAGE succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_da876/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_da876.dir/build.make CMakeFiles/cmTC_da876.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_da876.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_ALIGNED_STORAGE  -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_da876.dir/src.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_da876
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da876.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_da876.dir/src.cxx.o -o cmTC_da876 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+
+#include <type_traits>
+std::aligned_storage<sizeof(char), alignof(char)>::type data;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_ATOMIC succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d01c3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d01c3.dir/build.make CMakeFiles/cmTC_d01c3.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_d01c3.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX11_ATOMIC  -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_d01c3.dir/src.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d01c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d01c3.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_d01c3.dir/src.cxx.o -o cmTC_d01c3 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+
+#include <atomic>
+std::atomic<int> i;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_CONSTEXPR succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_86814/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_86814.dir/build.make CMakeFiles/cmTC_86814.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_86814.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX11_CONSTEXPR  -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_86814.dir/src.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_86814
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86814.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_86814.dir/src.cxx.o -o cmTC_86814 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+
+constexpr int x = 0;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_CHRONO succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6fd16/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6fd16.dir/build.make CMakeFiles/cmTC_6fd16.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_6fd16.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX11_CHRONO  -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_6fd16.dir/src.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6fd16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fd16.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_6fd16.dir/src.cxx.o -o cmTC_6fd16 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+
+#include <chrono>
+std::chrono::seconds s;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_NULLPTR_T succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_04182/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_04182.dir/build.make CMakeFiles/cmTC_04182.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_04182.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX11_NULLPTR_T  -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_04182.dir/src.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_04182
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04182.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_04182.dir/src.cxx.o -o cmTC_04182 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+
+#include <cstddef>
+void foo(std::nullptr_t) {}
+int main(void) { foo(nullptr); }
+
+Performing C++ SOURCE FILE Test HAVE_LOCALTIME_R succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2a569/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2a569.dir/build.make CMakeFiles/cmTC_2a569.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_2a569.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_LOCALTIME_R  -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_2a569.dir/src.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx
+/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx:8:16: warning: ‘timep’ may be used uninitialized [-Wmaybe-uninitialized]
+    8 |     localtime_r(&timep, &result);
+      |     ~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/ctime:42,
+                 from /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx:3:
+/usr/include/time.h:159:19: note: by argument 1 of type ‘const time_t*’ {aka ‘const long int*’} to ‘tm* localtime_r(const time_t*, tm*)’ declared here
+  159 | extern struct tm *localtime_r (const time_t *__restrict __timer,
+      |                   ^~~~~~~~~~~
+/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx:6:12: note: ‘timep’ declared here
+    6 |     time_t timep;
+      |            ^~~~~
+Linking CXX executable cmTC_2a569
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a569.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_2a569.dir/src.cxx.o -o cmTC_2a569 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+
+#include <cstdlib>
+#include <ctime>
+int main()
+{
+    time_t timep;
+    struct tm result;
+    localtime_r(&timep, &result);
+    return EXIT_SUCCESS;
+}
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8dd79/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8dd79.dir/build.make CMakeFiles/cmTC_8dd79.dir/build
+gmake[1]: Entering directory '/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8dd79.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE   -fvisibility=hidden -o CMakeFiles/cmTC_8dd79.dir/src.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8dd79
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dd79.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_8dd79.dir/src.cxx.o -o cmTC_8dd79 
+gmake[1]: Leaving directory '/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5fcbe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5fcbe.dir/build.make CMakeFiles/cmTC_5fcbe.dir/build
+gmake[1]: Entering directory '/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5fcbe.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_5fcbe.dir/src.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5fcbe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fcbe.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_5fcbe.dir/src.cxx.o -o cmTC_5fcbe 
+gmake[1]: Leaving directory '/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_58e92/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_58e92.dir/build.make CMakeFiles/cmTC_58e92.dir/build
+gmake[1]: вход в каталог «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_58e92.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR  -fconcepts -Wall -Wextra -Wpedantic -g  -fPIE -o CMakeFiles/cmTC_58e92.dir/src.cxx.o -c /home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx
+/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx:2:33: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+    2 |     int main() { return somefunc();}
+      |                         ~~~~~~~~^~
+/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp/src.cxx:1:37: note: declared here
+    1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+      |                                     ^~~~~~~~
+Linking CXX executable cmTC_58e92
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58e92.dir/link.txt --verbose=1
+/usr/bin/c++  -fconcepts -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/cmTC_58e92.dir/src.cxx.o -o cmTC_58e92 
+gmake[1]: выход из каталога «/home/boris/cpp-advanced-hse/asan_build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tasks/lock-free/mpsc-stack",
+		"source" : "tasks/lock-free/mpsc-stack"
+	}
+}

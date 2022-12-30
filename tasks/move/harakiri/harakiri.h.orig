@@ -1,0 +1,46 @@
+#pragma once
+
+#include <string>
+#include "cstring"
+#include "iostream"
+
+// Should not allow reuse and yell under sanitizers.
+// Fix the interface and implementation.
+// AwesomeCallback should add "awesomeness".
+
+class OneTimeCallback {
+public:
+<<<<<<< Updated upstream
+    virtual ~OneTimeCallback() = default;
+    virtual std::string operator()() = 0;
+=======
+    virtual ~OneTimeCallback() {
+    }
+    virtual std::string operator()() const&& {
+        return str_;
+    }
+    std::string str_;
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+};
+
+// Implement ctor, operator(), maybe something else...
+class AwesomeCallback : public OneTimeCallback {
+public:
+    AwesomeCallback(const std::string& str) {
+        str_ = str + "awesomeness";
+    }
+    ~AwesomeCallback() override {
+    }
+
+    std::string operator()() const&& override {
+        std::string tmp = str_;
+        delete this;
+        return tmp;
+    }
+};

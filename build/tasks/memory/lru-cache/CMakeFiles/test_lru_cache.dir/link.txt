@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g CMakeFiles/test_lru_cache.dir/test.cpp.o CMakeFiles/test_lru_cache.dir/lru_cache.cpp.o -o ../../../test_lru_cache  ../../../libcontrib_catch_main.a 

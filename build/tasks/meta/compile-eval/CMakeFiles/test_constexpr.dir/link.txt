@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g CMakeFiles/test_constexpr.dir/test_constexpr.cpp.o -o ../../../test_constexpr  ../../../libcontrib_catch_main.a 

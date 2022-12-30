@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdecoder_baseline.a CMakeFiles/decoder_baseline.dir/huffman.cpp.o CMakeFiles/decoder_baseline.dir/fft.cpp.o CMakeFiles/decoder_baseline.dir/decoder.cpp.o
+/usr/bin/ranlib libdecoder_baseline.a
